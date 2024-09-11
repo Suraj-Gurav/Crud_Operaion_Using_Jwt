@@ -1,0 +1,25 @@
+.bgImage{
+    background-image:url("./../welcome1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%; 
+    width: 50%;
+    height: 100vh;  
+    position: relative;
+}
+.backBtn{
+    padding:10px 20px;
+    border-radius: 10px;
+    background-color: rgb(19, 18, 18);
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 70px;
+    left: 40%;
+
+}
+.backBtn:hover{
+    background-color:white;
+    color: rgb(61, 61, 61);
+    border: 2px solid black;
+}
